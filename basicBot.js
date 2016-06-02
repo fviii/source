@@ -256,11 +256,11 @@
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
             startupEmoji: false, // true or false
-            autowoot: true,
-            autoskip: false,
+            autowoot: false,
+            autoskip: true,
             smartSkip: true,
             cmdDeletion: true,
-            maximumAfk: 120,
+            maximumAfk: 180,
             afkRemoval: true,
             maximumDc: 15,
             bouncerPlus: false,
@@ -272,7 +272,7 @@
             maximumCycletime: 10,
             voteSkip: false,
             voteSkipLimit: 10,
-            historySkip: false,
+            historySkip: true,
             timeGuard: true,
             maximumSongLength: 15,
             autodisable: true,
