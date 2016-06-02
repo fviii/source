@@ -1626,7 +1626,7 @@
 
             afktimeCommand: {
                 command: 'afktime',
-                rank: 'bouncer',
+                rank: 'mod',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -1697,7 +1697,7 @@
 
             autowootCommand: {
                 command: 'autowoot',
-                rank: 'user',
+                rank: 'mod',
                 type: 'exact',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -1968,7 +1968,7 @@
 
             cycleguardCommand: {
                 command: 'cycleguard',
-                rank: 'bouncer',
+                rank: 'mod',
                 type: 'exact',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -3415,7 +3415,7 @@
 
             unbanCommand: {
                 command: 'unban',
-                rank: 'bouncer',
+                rank: 'mod',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
